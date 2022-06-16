@@ -10,13 +10,13 @@ public class HomePage extends BasePage {
 	WebDriver driver;
 	ElementUtil elementUtil;
 
-	By spendSave = By.xpath("//*[@id=\"__next\"]/div/header/ul[1]/li[1]/a");
-	By welcomeMsg = By.xpath("/html/body/div[4]/div/div/div/div[2]/h5");
-	By getSarted = By.xpath("//*[@id=\"__next\"]/div/header/ul[2]/li[2]/button");
+	private By spendSave = By.xpath("//*[@id=\"__next\"]/div/header/ul[1]/li[1]/a");
+	private By welcomeMsg = By.xpath("/html/body/div[4]/div/div/div/div[2]/h5");
+	private By getSarted = By.xpath("//*[@id=\"__next\"]/div/header/ul[2]/li[2]/button");
 
 //spend&save page locators
-	By aspiration = By.xpath("//*[@id=\"__next\"]/div/section[7]/div/div[1]/div[1]/div[1]/div[1]/span");
-	By aspirationPlus = By.xpath("//*[@id=\"__next\"]/div/section[7]/div/div[1]/div[1]/div[2]/div[1]/span");
+	private By aspiration = By.xpath("//*[@id=\"__next\"]/div/section[7]/div/div[1]/div[1]/div[1]/div[1]/span");
+	private By aspirationPlus = By.xpath("//*[@id=\"__next\"]/div/section[7]/div/div[1]/div[1]/div[2]/div[1]/span");
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
